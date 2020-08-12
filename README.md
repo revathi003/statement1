@@ -15,7 +15,6 @@
      ![closepair](https://user-images.githubusercontent.com/69565013/90004996-3171ff80-dcb4-11ea-9824-3a0aa12747ae.png)
 ## step 5 :
    * Sort the array strip[] according to y coordinates. This step is O(nLogn). It can be optimized to O(n) by recursively sorting and merging.
-![closepair](https://user-images.githubusercontent.com/69565013/90004996-3171ff80-dcb4-11ea-9824-3a0aa12747ae.png)
 
 ## step 6 :
    * Find the smallest distance in strip[]. This is tricky. From the first look, it seems to be a O(n^2) step, but it is actually O(n). It can be proved geometrically that for every point in the strip, we only need to check at most 7 points after it (note that strip is sorted according to Y coordinate). See this for more analysis.
